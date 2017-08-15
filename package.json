@@ -1,0 +1,13 @@
+{
+    "name": "babel-function-to-arrow-plugin",
+    "version": "0.0.1",
+    "scripts": {
+        "dir": "node -e 'console.log(path.resolve(\".\"))'"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.24.1",
+        "babel-core": "^6.25.0",
+        "babel-preset-env": "^1.6.0",
+        "babel-preset-es2015": "^6.24.1"
+    }
+}
