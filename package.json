@@ -1,5 +1,5 @@
 {
-    "name": "babel-function-to-arrow-plugin",
+    "name": "babel-aid-function-to-arrow-plugin",
     "version": "0.0.1",
     "scripts": {
         "dir": "node -e 'console.log(path.resolve(\".\"))'"
