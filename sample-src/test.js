@@ -1,46 +1,36 @@
+function A() {}
 
-function A () {
-
-}
-
-function B(a,b) {
-    return b
+function B(a, b) {
+  return b;
 }
 
 function R(a) {
-    return a;
+  return a;
 }
 
 function Module(inject) {
-
-    function something2() {
-        function innerSomething() {
-
-        }
-    }
-    function something() {
-        arguments
-    }
+  function something2() {
+    function innerSomething() {}
+  }
+  function something() {
+    arguments;
+  }
+  (function() {
     const arrow = () => {
-        this.test = 2
-    }
+      this.test = 2;
+    };
+  })();
 }
 
-function z () {
-    function s() {
-        function q() {
-
-        }
-    }
+function z() {
+  function s() {
+    function q() {}
+  }
 }
-const D = function C() {
+const D = function C() {};
 
-}
-
-function Test() {
-
-}
+function Test() {}
 
 Test.prototype.z = function z(v) {
-    return v;
-}
+  return v;
+};
